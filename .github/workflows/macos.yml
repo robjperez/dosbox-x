@@ -53,5 +53,3 @@ jobs:
         with:
           name: dosbox-x-macosx-arm64-${{ env.timestamp }}
           path: ${{ github.workspace }}/dosbox-x-macosx-arm64-${{ env.timestamp }}.zip
-        with:
-          files: dosbox-x-macosx-arm64-${{ env.timestamp }}.zip
